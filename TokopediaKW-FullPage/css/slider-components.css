@@ -1,0 +1,216 @@
+
+/* bagian feature */
+.feature-section {
+    padding-top: 20px;
+    padding-bottom: 17px;
+    margin-bottom: 20px;
+    color: #000;
+    background-color: #F7F7F7;
+    font-family: 'Roboto', sans-serif;
+}
+.feature-section .container {
+    overflow: hidden;
+    position: relative;
+}
+.feature-section .container h5 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.feature-section .container .feature-swiper {
+    width: 100%;
+    overflow: hidden;
+}
+.feature-section .container .item {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+.feature-section .container .item img {
+    height: 58px;
+    width: 45px;
+}
+.feature-section .container .item .description {
+    padding-left: 25px;
+    /* text-align: center; */
+}
+.feature-section .container .item .description p {
+    font-size: 13px;
+}
+.feature-section .container .item .description p:nth-child(1) {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.feature-section .container .item .description p:nth-child(2) {
+    margin-bottom: 0;
+}
+
+/* custom pagination */
+.feature-section .container .feature-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.feature-section .container .feature-pagination .swiper-pagination-bullet-active {
+    background-color: #327854 !important;
+}
+/* end */
+
+/* custom pagination spidejs */
+.feature-section .container .splide-feature .splide__pagination {
+    position: static !important;
+    margin-top: 30px;
+}
+.feature-section .container .splide-feature .splide__pagination .is-active {
+    background-color: #327854;
+    opacity: 100;
+}
+/* end */
+
+
+/* bagian slider kategori product */
+.container .box-parent {
+    position: relative;
+    /* width: 100%; */
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.05);
+    background-color: #FFFF;
+    color: #000;
+    padding: 14px 22px 22px 13px;
+}
+.container .box-parent .category-typography {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    
+}
+.container .box-parent .card {
+    height: 128px;
+    background-color: #F7F7F7;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.1);
+}
+.container .box-parent a {
+    color: #000;
+}
+.container .box-parent a:hover {
+    text-decoration: none;
+}
+
+.container .box-parent .card .card-typography {
+    text-align: center;
+    font-size: 13px;
+    width: 70%;
+}
+/* custom navigation in button splidejs */
+.container .box-parent .splide-product .splide__arrows .next-arrow {
+    right: -20px !important;
+    opacity: 0;
+    z-index: 99;
+    color: green !important;
+    border-color: black !important;
+}
+.container .box-parent .splide-product .splide__arrows .next-arrow-test {
+    right: -20px;
+}
+.container .box-parent .splide-product .splide__arrows .splide__arrow--prev {
+    display: none;
+}
+/* end custom navigation button splidejs */
+/* end */
+
+/* start keselamatan dan kesehatan */
+.container .box-parent-health {
+    position: relative;
+    /* width: 100%; */
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.05);
+    background-color: #FFFF;
+    color: #000;
+    padding: 14px 22px 22px 13px;
+}
+.container .box-parent-health h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.container .box-parent-health a {
+    color: #337753;
+}
+.container .box-parent-health a:hover {
+    text-decoration: none;
+}
+.container .box-parent-health a .card:hover {
+    background-color: #337753;
+}
+.container .box-parent-health a .card:hover .card-typography {
+    color: #FFFF;
+}
+.container .box-parent-health a .card {
+    /* width: 176px; */
+    height: 72px;
+    background-color: #F7F7F7;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.1);
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition-duration: 500ms;
+    /* justify-content: center; */
+}
+.container .box-parent-health a .card .card-typography {
+    text-align: center;
+    margin-bottom: 0;
+}
+/* custom button splide */
+.container .box-parent-health .splide-health .splide__arrows .next-arrow {
+    right: -10px !important;
+    opacity: 0;
+    z-index: 99;
+    color: green !important;
+    border-color: black !important;
+}
+.container .box-parent-health .splide-health .splide__arrows .next-arrow-test {
+    right: -10px;
+}
+.container .box-parent-health .splide-health .splide__arrows .splide__arrow--prev {
+    display: none;
+}
+/* end */
+
+@media (min-width: 576px) {
+    /* bagian feature */
+    .feature-section .container .feature-swiper {
+        overflow: none;
+    }
+    .feature-section .container .item {
+        width: 265px;
+        height: 90px;
+
+        flex-direction: row;
+    }
+    .feature-section .container .item img {
+        width: 60px;
+        height: 100%;
+    }
+    .feature-section .container .item .description {
+        padding-left: 5px;
+    }
+    .feature-section .container .item .description p:nth-child(1) {
+        margin-bottom: 14px;
+    }
+    /* end */
+    
+    /* slider kategori product */
+    .container .box-parent {
+        padding: 14px 13px 22px 13px;
+    }
+    .container .box-parent .card {
+        width: 161px;
+    }
+    /* end */
+}
+
+@media (min-width: 768px) {
+    .container .box-parent-health a .card {
+        width: 176px;
+    }
+}

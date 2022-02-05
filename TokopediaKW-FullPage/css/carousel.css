@@ -1,0 +1,95 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+.carousel-control-prev-icon {
+    background-image: url(../assets/back.svg);
+    width: 2.5em !important;
+    height: 2.5em !important;
+    background-position: left;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../assets/next.svg);
+    width: 2.5em !important;
+    height: 2.5em !important;
+    background-position: right;
+}
+.btn-primary{
+    background-color: #337753 !important;
+    border-radius: 5px;
+}
+
+.bg-abu {
+    background-color: none;
+}
+
+.carousel-responsif {
+    display: block;
+}
+
+.carousel-desktop {
+    display: none;
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .bg-abu {
+        background-color: none;
+    }
+    .carousel-responsif {
+        display: block;
+    }
+    .carousel-desktop {
+        display: none;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .bg-abu {
+        background-color: none;
+    }
+    .carousel-responsif {
+        display: block;
+    }
+    .carousel-desktop {
+        display: none;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .bg-abu {
+        background-color: #F7F7F7;
+    }
+    .carousel-responsif {
+        display: none;
+    }
+    .carousel-desktop {
+        display: block;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .bg-abu {
+        background-color: #F7F7F7;
+    }
+    .carousel-responsif {
+        display: none;
+    }
+    .carousel-desktop {
+        display: block;
+    }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .bg-abu {
+        background-color: #F7F7F7;
+    }
+    .carousel-responsif {
+        display: none;
+    }
+    .carousel-desktop {
+        display: block;
+    }
+ }
